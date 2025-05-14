@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Forms</title>
+</head>
+
+<body>
+<!--Using forms to accept user data-->
+<form method="post">
+
+    <div>
+        <label>First Name:</label>
+        <input name="FirstName" type="text" placeholder="[Enter first name here]"/>
+    </div>
+<div>
+        <label>Other Name(s):</label>
+        <input name="OtherNames" type="text" placeholder="[Enter othernames here]"/>
+    </div>
+<div>
+        <label>Password:</label>
+        <input name="Password" type="password" />
+    </div>
+    <div>
+        <label>Gender</label>
+        <input type="radio" value="Male" name="Gender"/>Male
+        <input type="radio" value="Female" name="Gender"/>Female
+    </div>
+
+    <div>
+<label>Favorite Team(s)</label>
+<input type="checkbox" name="team" value="Barcelona"/>Barcelona
+<input type="checkbox" name="team" value="Manchester United"/>Manchester United
+<input type="checkbox" name="team" value="Chelsea"/>Chelsea
+<input type="checkbox" name="team" value="Manchester City"/>Manchester City
+
+    </div>
+
+    <div>
+        <label>Favourite Player:</label>
+        <select name="FavoritePlayer">
+            <option>Lamine</option>
+            <option>Messi</option>
+            <option>Raphinha</option>
+            <option>Balde</option>
+        </select>
+    </div>
+     <div>
+        <label>Comments:</label>
+        <textarea></textarea>   
+    </div>
+
+    <div>
+        <input type="submit" value="Create New"/>
+    </div>
+</form>    
+</body>
+
+</html>
