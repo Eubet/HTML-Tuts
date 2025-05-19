@@ -1,0 +1,51 @@
+div  p{
+color: brown;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.pharmd3 {
+    color: blue;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: right;
+}
+
+#boxID {
+ margin: 50px;
+ padding: 25px;
+ background-color: red;
+ border: 5px solid blue;
+ font-weight: bolder;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    overflow: hidden;
+}
+
+.navbar li{
+    display: inline;
+    float: left;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    padding: 14px 16px;
+    color: white;
+    border-right: solid 1px;
+}
+
+.navbar li a:hover{
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
