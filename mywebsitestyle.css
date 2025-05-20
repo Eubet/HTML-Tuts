@@ -1,8 +1,4 @@
-div  p{
-color: brown;
-font-weight: bold;
-text-decoration: underline;
-}
+
 
 .pharmd3 {
     color: blue;
@@ -24,7 +20,7 @@ text-decoration: underline;
     background-color: navy;
     margin: 0;
     padding: 0;
-    height: 35px;
+    height: 50px;
     overflow: hidden;
 }
 
@@ -36,8 +32,8 @@ text-decoration: underline;
 .navbar li a {
     text-decoration: none;
     text-align: center;
-    display: inline;
-    padding: 14px 16px;
+    display: block;
+    padding: 16px 16px;
     color: white;
     border-right: solid 1px;
 }
@@ -48,4 +44,46 @@ text-decoration: underline;
 
 .active {
     background-color: #04aa6d;
+}
+
+body{
+    background-image: url(webback.jpg);
+}
+
+.card{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: auto;
+    margin: 5px ;
+}
+
+.centerText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 14px;
+    
+}
+
+.card   {
+    border-color: beige;
+    border: solid 1px;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    
+}
+
+.card:hover{
+    box-shadow: 0 8px 100px 0 rgba(0, 0, 0, 2);
+}
+
+.title{
+    color: gray;
 }
